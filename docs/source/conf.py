@@ -50,7 +50,7 @@ exclude_patterns = []
 html_theme = 'furo'
 
 html_title = "SUFST Documentation"
-html_logo = "img/stag.svg"
+html_logo = "_img/stag.svg"
 
 html_theme_options = {
     "light_css_variables": {
@@ -62,6 +62,8 @@ html_theme_options = {
         "color-brand-content": "#0066cc",
     },
 }
+
+html_favicon = '_img/favicon.ico'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
