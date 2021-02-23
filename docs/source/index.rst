@@ -1,20 +1,36 @@
-.. SUFST Documentation documentation master file, created by
-   sphinx-quickstart on Sat Feb  6 17:49:38 2021.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+Welcome to the SUFST Documentation
+==================================
 
-Welcome to SUFST Documentation's documentation!
-===============================================
+This is the documentation site for the **Southampton University Formula Student
+Team**.
+
+.. Still to include in GENERAL section
+
+.. Getting started
+.. Github
+.. Website
+.. Draw.io
+.. File storage (where to put which files)
+.. Useful links (website, social, sharepoint etc...)
+   
+.. toctree::
+   :hidden:
+   :caption: General
+   
+   documentation/index
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :hidden:
+   :caption: Low Voltage
 
+.. toctree::
+   :hidden:
+   :caption: High Voltage
 
+.. toctree::
+   :hidden:
+   :caption: Quick Links
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   Website <https://sufst.co.uk>
+   Sharepoint <https://sotonac.sharepoint.com/teams/sufst>
+   GitHub Repository <https://github.com/sufst/documentation>
