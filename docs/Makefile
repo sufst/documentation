@@ -9,7 +9,7 @@ SOURCEDIR     = source
 BUILDDIR      = build
 
 # options for auto-build
-AUTOBUILDOPS  ?= --port=8081 --open-browser
+AUTOBUILDOPS  ?= --port=8081
 
 # Put it first so that "make" without argument is like "make help".
 help:
