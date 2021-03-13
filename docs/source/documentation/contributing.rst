@@ -31,7 +31,7 @@ How to write documentation
 
 As mentioned above, you shouldn't be afraid to contribute to the documentation
 and as such, there is no wrong way to write documentation. However, there are
-some best practises.
+some best practices.
 
 This is a tricky topic to cover well so we would encourage you to visit and read
 through some of `Write the Docs <https://www.writethedocs.org/guide/>`_ which is
@@ -233,3 +233,13 @@ To setup Sphinx locally you will need to run the following commands.
 
 Following this you will be able to run the make procedure above to build the
 documentation locally. Any files you build will not be pushed to GitHub.
+
+To run a local server that renders any changes to the source automatically, run the following command from within the ``docs/`` directory.
+
+.. code:: bash
+
+    make live
+
+You can view the result using your browser by navigating to http://localhost:8081.
+When you make any changes to the documentation, this will update automatically to include them.
+
