@@ -18,10 +18,11 @@ Team**.
    :caption: General
    
    documentation/index
+   rules/index
 
 .. toctree::
    :hidden:
-   :caption: Low Voltage
+   :caption: Low Voltage   
 
 .. toctree::
    :hidden:
