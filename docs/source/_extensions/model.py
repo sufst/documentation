@@ -44,22 +44,6 @@ class Model(Directive):
 def model_html(self, node):
     # Define HTML markup to insert
     
-    #https://unpkg.com/three@0.128.0/build/three.min.js
-    
-    # import { OrbitControls } from 'https://unpkg.com/three@0.128.0/examples/jsm/controls/OrbitControls.js'
-#<script src="_static/three.js"></script>
-
- #import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.module.js';
-
-            #import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@0.128.0/examples/jsm/controls/OrbitControls.js';
-            #import { GLTFLoader } from 'https://cdn.jsdelivr.net/npm/three@0.128.0/examples/jsm/loaders/GLTFLoader.js';
-            
-            
-#<script src="_static/three.js"></script>
-        #<script src="_static/GLTFLoader.js"></script>
-        
-        
-        
     markup = """
         <script type="module">
           console.log("Model extension running");
