@@ -65,10 +65,11 @@ def model_html(self, node):
           const scene = new THREE.Scene();
           const camera = new THREE.PerspectiveCamera(75, canvasWidth / canvasHeight, 0.1, 1000);
 
-          const renderer = new THREE.WebGLRenderer();
+          const renderer = new THREE.WebGLRenderer({antialias: true});
           renderer.setSize(canvasWidth, canvasHeight);
           renderer.gammaOutput = true;
           renderer.gammaFactor = 2.2;
+          renderer.setPixelRatio(window.devicePixelRatio);
           
           // Add orbit controls
           const controls = new OrbitControls(camera, renderer.domElement);
@@ -107,22 +108,14 @@ def model_html(self, node):
           camera.position.z = 0.4;
           controls.update();
           
-          var animate = function() {
-            requestAnimationFrame(animate);
-
-            //cube.rotation.x += 0.01;
-            //cube.rotation.y += 0.01;
-            
-            controls.update();
-
-            renderer.render(scene, camera);
-          };
-
-          animate();
-
-
           // Insert canvas at current script position in DOM
           scriptElement.parentElement.insertBefore(renderer.domElement, scriptElement);
+          
+          function animate() {
+            requestAnimationFrame( animate );
+            renderer.render( scene, camera );
+          }
+          animate();
         </script>
     """
     
