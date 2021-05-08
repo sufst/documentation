@@ -12,6 +12,9 @@ Team**.
 .. Draw.io
 .. File storage (where to put which files)
 .. Useful links (website, social, sharepoint etc...)
+
+.. model::
+    :name: Test
    
 .. toctree::
    :hidden:
