@@ -43,44 +43,94 @@ class Model(Directive):
 
 def model_html(self, node):
     # Define HTML markup to insert
+    
+    #https://unpkg.com/three@0.128.0/build/three.min.js
+    
+    # import { OrbitControls } from 'https://unpkg.com/three@0.128.0/examples/jsm/controls/OrbitControls.js'
+#<script src="_static/three.js"></script>
 
+ #import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.module.js';
+
+            #import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@0.128.0/examples/jsm/controls/OrbitControls.js';
+            #import { GLTFLoader } from 'https://cdn.jsdelivr.net/npm/three@0.128.0/examples/jsm/loaders/GLTFLoader.js';
+            
+            
+#<script src="_static/three.js"></script>
+        #<script src="_static/GLTFLoader.js"></script>
+        
+        
+        
     markup = """
-        <script src="_static/three.js"></script>
-
-        <script>
+        <script type="module">
           console.log("Model extension running");
+          
+          import * as THREE from 'https://cdn.skypack.dev/three@0.128.0';
+          import { OrbitControls } from 'https://cdn.skypack.dev/three@0.128.0/examples/jsm/controls/OrbitControls.js';
+          import { GLTFLoader } from 'https://cdn.skypack.dev/three@0.128.0/examples/jsm/loaders/GLTFLoader.js';
         
           // Get current script tag so we can insert around it
-          scriptElement = document.scripts[document.scripts.length - 1];
-          container = scriptElement.parentElement;
+          const scriptElement = document.scripts[document.scripts.length - 1];
+          const container = scriptElement.parentElement;
           
           // Calculate model canvas dimensions
-          canvasWidth = container.clientWidth;
+          const canvasWidth = container.clientWidth;
           
           // Calculate height so canvas is 16:10 ratio
-          canvasHeight = canvasWidth / 16 * 10;
+          const canvasHeight = canvasWidth / 16 * 10;
           
           const scene = new THREE.Scene();
           const camera = new THREE.PerspectiveCamera(75, canvasWidth / canvasHeight, 0.1, 1000);
 
           const renderer = new THREE.WebGLRenderer();
           renderer.setSize(canvasWidth, canvasHeight);
+          renderer.gammaOutput = true;
           
+          // Add orbit controls
+          const controls = new OrbitControls(camera, renderer.domElement);
           
-          const geometry = new THREE.BoxGeometry();
-          const material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
-          const cube = new THREE.Mesh( geometry, material );
-          scene.add( cube );
-
-          camera.position.z = 5;
+          // Add ambient light for testing
+          const amb_light = new THREE.AmbientLight(0xdef2ff, 1); // Blue-ish light
+          scene.add(amb_light);
           
-          var animate = function () {
-            requestAnimationFrame( animate );
+          // Add point light for testing
+          const point_light = new THREE.PointLight( 0xff0000, 5, 100 );
+          point_light.position.set(10, 10, 10);
+          scene.add(point_light);
+          
+          // Add grid to visualise floor
+          const size = 10;
+          const divisions = 10;
 
-            cube.rotation.x += 0.01;
-            cube.rotation.y += 0.01;
+          const grid = new THREE.GridHelper( size, divisions );
+          scene.add(grid);
+          
+          //const geometry = new THREE.BoxGeometry();
+          //const material = new THREE.MeshBasicMaterial({color: 0x00ff00});
+          //const cube = new THREE.Mesh(geometry, material);
+          //scene.add(cube);
+          
+          const loader = new GLTFLoader();
 
-            renderer.render( scene, camera );
+          loader.load('_static/blue_cone.glb', function(gltf) {
+            scene.add(gltf.scene);
+          }, undefined, function (error) {
+            console.error(error);
+          });
+          
+          // Update camera position
+          camera.position.y = 0.4;
+          camera.position.z = 0.4;
+          controls.update();
+          
+          var animate = function() {
+            requestAnimationFrame(animate);
+
+            //cube.rotation.x += 0.01;
+            //cube.rotation.y += 0.01;
+            
+            controls.update();
+
+            renderer.render(scene, camera);
           };
 
           animate();
