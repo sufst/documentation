@@ -14,7 +14,7 @@ Team**.
 .. Useful links (website, social, sharepoint etc...)
 
 .. model::
-    :name: Test
+    :name: blue_cone
    
 .. toctree::
    :hidden:

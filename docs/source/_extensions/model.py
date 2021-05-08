@@ -84,6 +84,7 @@ def model_html(self, node):
           const renderer = new THREE.WebGLRenderer();
           renderer.setSize(canvasWidth, canvasHeight);
           renderer.gammaOutput = true;
+          renderer.gammaFactor = 2.2;
           
           // Add orbit controls
           const controls = new OrbitControls(camera, renderer.domElement);
@@ -111,7 +112,7 @@ def model_html(self, node):
           
           const loader = new GLTFLoader();
 
-          loader.load('_static/blue_cone.glb', function(gltf) {
+          loader.load('_static/%(name)s.glb', function(gltf) {
             scene.add(gltf.scene);
           }, undefined, function (error) {
             console.error(error);
