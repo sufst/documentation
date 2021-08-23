@@ -18,6 +18,7 @@ Team**.
    :caption: General
    
    documentation/index
+   git/index
 
 .. toctree::
    :hidden:
