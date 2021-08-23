@@ -7,4 +7,5 @@ This section is designed as a destination for all things Git / version control.
    :hidden:
 
    getting-started
+   git-tutorial
    guidelines

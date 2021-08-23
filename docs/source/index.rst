@@ -34,4 +34,4 @@ Team**.
 
    Website <https://sufst.co.uk>
    Sharepoint <https://sotonac.sharepoint.com/teams/sufst>
-   GitHub Repository <https://github.com/sufst/documentation>
+   GitHub Organisation <https://github.com/sufst/documentation>
