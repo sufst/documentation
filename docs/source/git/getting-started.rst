@@ -40,7 +40,36 @@ If ``git`` is installed it should print something like:
 
    git version 2.30.1 (Apple Git-130)
 
-If it isn't installed it will prompt you to install it using the Xcode Command Line tools. Follow the instructions presented and you should be all ready and set. To verfiy it worked, you can simply run ``git --version`` again using a terminal window.
+If it isn't installed it will prompt you to install it using the Xcode Command Line tools. Follow the instructions presented and you should be all ready and set. To verify it worked, you can simply run ``git --version`` again using a terminal window.
 
 .. seealso:: Prefer written instructions? 
    - `Written <https://www.atlassian.com/git/tutorials/install-git>`_
+
+2. Creating a GitHub account
+----------------------------
+
+As mentioned, the team uses **GitHub** as a place to store all source code. To get you up and running with GitHub and the team's organisation, you first need to have a GitHub account. 
+
+You can very easily sign up for an account `here <https://www.github.com/signup>`_. 
+
+.. tip:: Although **not mandatory**, we strongly advise you to enable 2FA (2-Factor Authentication) on your GitHub account (as for every other important online account you have.)
+
+3. Configuring GitHub to work with Git
+--------------------------------------
+
+Lastly, you'll need to link your GitHub account you just created with ``git`` that you installed earlier on. This is so all commits you create, code you write and later push onto the team's account is linked with correct GitHub account - in this case your account. 
+
+Do to so open ``Git Bash`` if you're on Windows or a terminal window if you're on macOS and run the following 2 commands. 
+
+.. code:: none
+
+   git config ––global user.name “github_username”
+
+.. code:: none
+
+   git config ––global user.email “email_address”
+
+
+.. tip:: Here you have to replace `github_username` and `email_address` with the ones you provided when you signed up to GitHub. For example, if your name was John Doe and your email was john@johndoe.com you'll need to run ``git config ––global user.name “John Doe”`` and ``git config ––global user.email “john@johndoe.com”``
+
+This is it! Congratulations. You have successfully configured all required pieces of software to start writing code for **SUFST**! 
