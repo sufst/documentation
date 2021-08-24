@@ -132,6 +132,11 @@ To simply **list all branches** on a git repository you run:
 
 ``git init`` initialises a new local git repository on the path it is run from. 
 
+6. ``git pull``
+~~~~~~~~~~~~~~~
+
+``git pull`` pulls all new contents from the remote repository & branch you are currently on. In other words, if a fellow teammate has worked on the branch as you, has pushed his changes and you now want to continue his work, you'll need to run ``git pull`` to bring the remote changes into your local repository. 
+
 
 ----
 
@@ -141,8 +146,8 @@ To simply **list all branches** on a git repository you run:
 
 ----
 
-Useful Tips
------------
+Useful Tips & FAQs
+------------------
 
 ``.gitignore``
 ~~~~~~~~~~~~~~
@@ -186,4 +191,31 @@ This is called GitHub Desktop and more information can be found `here <https://d
 Exiting Vim
 ~~~~~~~~~~~
 
-The most common issue about using Git from the command line is accidentally entering Vim when making a new commit. 
+The most common issue about using Git from the command line is accidentally entering Vim when making a new commit. This can happen if you run ``git commit`` without specifying the ``-m`` flag for the commit message. 
+
+If this happens, you can simply exit the Vim editor by hitting ``:q`` and then **Enter**.
+
+Help! I can't push my code.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+If you run ``git push`` and the command fails, the most likely reason is that you are accidentally on the ``main`` branch. This brach is protected by default and as mentioned in the Contributing Guidelines shouldn't be used to directly push code to. 
+
+Run ``git branch`` and make sure you are actually on another branch and not ``main``. If you're on another branch and still can't push, please ask a Committee or other team member for help. 
+
+Help! I can't pull. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+If you run ``git pull`` and the command fails, the most likely reason is that you can local changes that conflict with the new remote ones you are bringing to bring in. Here git is useful and will instruct you to run ``git stash`` and then re-run ``git pull``. 
+
+.. attention:: Running ``git stash`` will remove all your new working changes and bring in the ones from the new remote commits. Make sure you don't have uncommited work before you run this command. 
+
+
+.. hint:: Similarly, to avoid this problem you can also commit your work using ``git commit -m <message>``. Then you'll be able to run ``git pull`` again without any problems.
+
+If you have tried all the above and you still can't push or if you don't feel confortable running these commands, please ask a Committee or other team member for help. 
+
+.. caution:: 
+
+   Running such commands can feel unconfortable the first time. It is recommended you only run commands like ``git stash`` if you feels confortable with them. 
+
+   If you don't, don't hesitate to ask for help - especially if you're just starting out with Git and GitHub. We can assure you that after a couple of times you'll be an expect in any sort of Git operation. 
