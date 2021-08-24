@@ -7,6 +7,8 @@ As a team we use ``git``, the popular version control software, for managing sou
 
 .. attention:: If you already have git installed, have a GitHub account and have configured git to work with GitHub, feel free to skip this page. 
 
+----
+
 1. Installing git
 -----------------
 
@@ -45,6 +47,9 @@ If it isn't installed it will prompt you to install it using the Xcode Command L
 .. seealso:: Prefer written instructions? 
    - `Written <https://www.atlassian.com/git/tutorials/install-git>`_
 
+
+----
+
 2. Creating a GitHub account
 ----------------------------
 
@@ -53,6 +58,8 @@ As mentioned, the team uses **GitHub** as a place to store all source code. To g
 You can very easily sign up for an account `here <https://www.github.com/signup>`_. 
 
 .. tip:: Although **not mandatory**, we strongly advise you to enable 2FA (2-Factor Authentication) on your GitHub account (as for every other important online account you have.)
+
+----
 
 3. Configuring GitHub to work with Git
 --------------------------------------

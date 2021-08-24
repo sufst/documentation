@@ -5,6 +5,8 @@ This page contains all needed Guidelines for contrubuting to SUFST's codebases. 
 
 .. caution:: From this point onwards, mentioning **"Committee"** means one of the 4 Heads of the Electronics Department, as written on the team's `SharePoint homepage <https://sotonac.sharepoint.com/teams/sufst>`_ 
 
+----
+
 Writing Code
 ------------
 
@@ -33,7 +35,7 @@ If an issue doesn't exist for a feature you are trying to add, then please make 
    - If working on an **existing project**, please follow the styling guides and file structure / format that the previous contributors have agreed upon. 
    - If working on a **new project**, feel free to use whatever suites the project team more. However, if not sure, you are advised to ask a Committee member out for more information. 
 
-4. The **GPL-3.0 copyright** block should written as a comment. on the **TOP OF EVERY FILE**, especially if the codebase is intended (or already available) for open-source distribution on GitHub. For example you see `this <https://github.com/sufst/wireless-telemetry-gui/blob/main/src/index.js>`_ file. 
+4. The **GPL-3.0 copyright** block should written as a comment on the **TOP OF EVERY FILE**, especially if the codebase is intended (or already available) for open-source distribution on GitHub. For example you see `this <https://github.com/sufst/wireless-telemetry-gui/blob/main/src/index.js>`_ file. 
 
       Southampton University Formula Student Team 
 
@@ -52,11 +54,14 @@ If an issue doesn't exist for a feature you are trying to add, then please make 
       You should have received a copy of the GNU General Public License
       along with this program.  If not, see <https://www.gnu.org/licenses/>
 
+.. note:: If a new remote repository needs to be created, message one of the Committee members to sort that out for you.
+
+----
 
 Issues
 ------
 
-Every team member is **strongly encouraged** to open new issues on GitHub on projects they are working on, or on other should they have something to comment on - suggest. To keep the issue pages on each repository manageable, please follow this simple points: 
+Every team member is **strongly encouraged** to open new issues on GitHub on projects they are working on, or on others should they have something to comment on - suggest. To keep the issue pages on each repository manageable, please follow these simple points: 
 
 1. Always say whether you're mentioning a **bug** or a **new feature**. In the future, issue templates will be set-up for you to follow in both cases. 
 
@@ -69,6 +74,8 @@ Every team member is **strongly encouraged** to open new issues on GitHub on pro
 
 3. If the bug or feature is something you feel comfortable to work on, **feel free to mention it in the issue description**. This way a Committee member will know this issue can be worked on and will assign you. Please don't auto-assign yourselves issues. 
 
+----
+
 Pull Requests
 -------------
 
@@ -80,4 +87,4 @@ Pull requests are meant to help Committee review new code to be merged into the 
 
 Having the Pull Request open **feel free to request review** by the Committee member responsible for the project you are working on. Each repository is set up in a way that it **requires an approved review** before a Pull Request can be merged. After requesting review and opening the PR, don't hesitate to message the Committe member or poke them on Team - Discord so they add merging your code into their agenda. 
 
-If the reviewer of your Pull Requests requests code changes, you'll to push a new commit with these changes before they can go ahead with the merge. 
+If the reviewer of your Pull Requests requests code changes, you'll need to push a new commit with these changes before they can go ahead with the merge. 
