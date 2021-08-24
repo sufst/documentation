@@ -127,9 +127,63 @@ To simply **list all branches** on a git repository you run:
 
 .. note:: According to your terminal shell, after running ``git branch`` the branch you are currently on could be highlighted. 
 
+5. ``git init``
+~~~~~~~~~~~~~~~
+
+``git init`` initialises a new local git repository on the path it is run from. 
+
 
 ----
 
 .. admonition:: SOMETHING WENT WRONG?
 
    Don't worry! Things go wrong with ``git`` and GitHub all the time. You can use `this site <https://ohshitgit.com/>`_ to check a list of possible things that could go wrong and a handy command list to fix the issue. Otherwise, as with everything in software development, the answer to your problems is simply a StackOverflow search away. 
+
+----
+
+Useful Tips
+-----------
+
+``.gitignore``
+~~~~~~~~~~~~~~
+
+Sometimes when putting a project under version control, there are specific files that you **don't want to add in the ``git`` repository** and push online. Example of such files include: 
+
+- ``node_modules`` folder
+- ``venv`` files & folders
+- IDE related workspace files 
+- etc...
+
+Git allows you to ignore any file you want from the version control software. To do this for a file you need to create a ``.gitignore`` file and add the paths to the folders you want to ignore in that file. You then need to add this file in version control, commit, push and you should see that all files specified are now ignored from the VCS. 
+
+An example ``.gitignore`` file can be viewed `here <https://github.com/sufst/documentation/blob/main/.gitignore>`_.
+
+
+Git Support for Code Editors & IDEs
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+To make the experience of using Git and GitHub easier for people who feel less comfortable using the command line, most popular Code Editors and IDEs have integrated support for Git and GitHub operations through their user interface. 
+
+.. important:: 
+
+   It is recommended that you use Git and GitHub through the UI for your code editor or IDE. This can help if you want to find a way around using the command line for everything. 
+
+Currently, all software tools from **JetBrains** (CLion, PyCharm etc...) as well as Microsoft's **Visual Studio** and **Visual Studio Code** include git integration. Most likely your favourite IDE or Code Editor has git features as well, so don't hesitate to make a Google search to figure that out. 
+
+GitHub Desktop 
+~~~~~~~~~~~~~~
+
+A big issue that newcomers face when using Git and GitHub is that they don't feel confortable enough to navigate and use the command line. GitHub has your back here since they have created a nice-looking and **powerful GUI tool to manage everything without having to use the command line**. 
+
+This is called GitHub Desktop and more information can be found `here <https://desktop.github.com/>`_. 
+
+.. caution:: 
+
+   At the time of writing, SUFST doesn't recommend using GitHub Desktop and suggests all team members default to the command line for git operations. 
+
+   Documentation and support for using GitHub Desktop within SUFST might be given in the future. 
+
+Exiting Vim
+~~~~~~~~~~~
+
+The most common issue about using Git from the command line is accidentally entering Vim when making a new commit. 
