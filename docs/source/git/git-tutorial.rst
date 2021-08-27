@@ -164,8 +164,8 @@ Git allows you to ignore any file you want from the version control software. To
 An example ``.gitignore`` file can be viewed `here <https://github.com/sufst/documentation/blob/main/.gitignore>`_.
 
 
-Git Support for Code Editors & IDEs
-~~~~~~~~~~~~~~~~~~~~~~~~~
+Git Integration for Code Editors & IDEs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 To make the experience of using Git and GitHub easier for people who feel less comfortable using the command line, most popular Code Editors and IDEs have integrated support for Git and GitHub operations through their user interface. 
 
@@ -216,6 +216,6 @@ If you have tried all the above and you still can't push or if you don't feel co
 
 .. caution:: 
 
-   Running such commands can feel unconfortable the first time. It is recommended you only run commands like ``git stash`` if you feels confortable with them. 
+   Running such commands can feel unconfortable the first time. It is recommended you only run commands like ``git stash`` if you feel confortable with them. 
 
-   If you don't, don't hesitate to ask for help - especially if you're just starting out with Git and GitHub. We can assure you that after a couple of times you'll be an expect in any sort of Git operation. 
+   If you don't, please ask for help - especially if you're just starting out with Git and GitHub. We can assure you that after a couple of times you'll be an expect in any sort of Git operation. 
