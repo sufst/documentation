@@ -79,4 +79,8 @@ Do to so open ``Git Bash`` if you're on Windows or a terminal window if you're o
 
 .. tip:: Here you have to replace `github_username` and `email_address` with the ones you provided when you signed up to GitHub. For example, if your name was John Doe and your email was john@johndoe.com you'll need to run ``git config ––global user.name “John Doe”`` and ``git config ––global user.email “john@johndoe.com”``
 
-This is it! Congratulations. You have successfully configured all required pieces of software to start writing code for **SUFST**! 
+.. admonition:: Not part of the SUFST GitHub Organisation?
+
+   If you are not a member of the SUFST GitHub Organisation, please inform a Committee member so they can send you an invite to join! 
+
+This is it! Congratulations. You have successfully configured all required pieces of software to start writing code for **SUFST**!

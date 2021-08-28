@@ -1,9 +1,12 @@
+.. _guidelines:
+
+
 Contributing Guidelines
 =======================
 
 This page contains all needed Guidelines for contrubuting to SUFST's codebases. These rules should be followed by **all team members** - without exemptions - in order to keep an organised and always evolving software development environment. 
 
-.. caution:: From this point onwards, mentioning **"Committee"** means one of the 4 Heads of the Electronics Department, as written on the team's `SharePoint homepage <https://sotonac.sharepoint.com/teams/sufst>`_ 
+.. caution:: From this point onwards, mentioning **"Committee"** means one of the 4 Heads of the Electronics Department, as written on the team's `SharePoint homepage <https://sotonac.sharepoint.com/teams/sufst/electronics>`_ 
 
 ----
 
