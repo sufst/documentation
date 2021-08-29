@@ -19,6 +19,7 @@ Team**.
    
    documentation/index
    git/index
+   software-infrastructure/index
 
 .. toctree::
    :hidden:
