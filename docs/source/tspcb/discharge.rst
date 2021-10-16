@@ -1,3 +1,20 @@
 Discharge Circuit
 =================
 
+Priority: **critical**
+
+**Description**
+###############
+
+When the accumulator is disconnected, this circuit ensures the vehicle is in a safe state by discharging any energy stored in the TS across a high-power resistor. 
+
+* The TS is considered discharged if its voltage is below 60V. (what rule?)
+* The circuit must be able to discharge the full accumulator voltage (580V) three times within 15 seconds. (EV 4.9.1)
+* The circuit must be fail-safe. It must discharge even if the HVD has been opened or the accumulator is disconnected. (EV 4.9.2)
+* Fusing of the discharge main current path is prohibited. (EV 4.9.3)
+
+.. **Resources**
+.. #############
+
+.. * `Michael Ruppe TSAL Website <https://michaelruppe.com/2020/10/11/design-walkthrough-tractive-system-active-light-tsal-driver-fsae/>`_: Has a useful description of how the TSAL works
+.. * `Michael Ruppe Example Schematic <https://github.com/michaelruppe/FSAE/blob/master/TSALv3/Schematic.pdf>`_: An example circuit diagram of the TSAL (not fully rules compliant)
