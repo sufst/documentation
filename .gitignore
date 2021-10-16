@@ -1,3 +1,6 @@
+#rST
+docs/source/_build
+
 # VSCode
 .vscode/
 *.code-workspace
