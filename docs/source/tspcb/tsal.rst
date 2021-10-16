@@ -4,7 +4,7 @@ Tractive System Active Light (TSAL)
 **Description**
 ###############
 The purpose of the TSAL is to provide a visual indicator as to whether the tractive system is active or not. 
-Relevant rules can be found in section 4.10 of the `FSG Rules <https://www.formulastudent.de/fileadmin/user_upload/all/2020/rules/FS-Rules_2020_V1.0.pdf>`_.
+Relevant rules can be found in section EV 4.10 of the `FSG Rules <https://www.formulastudent.de/fileadmin/user_upload/all/2020/rules/FS-Rules_2020_V1.0.pdf>`_.
 There are three possible states for the TSAL:
 
 * **Active**: Red and flashing between 2 and 5 *Hz* 
