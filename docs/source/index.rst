@@ -20,6 +20,7 @@ Team**.
    documentation/index
    git/index
    software-infrastructure/index
+   tspcb/index
 
 .. toctree::
    :hidden:
