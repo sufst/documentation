@@ -17,5 +17,3 @@ When the accumulator is disconnected, this circuit ensures the vehicle is in a s
 #############
 
 * `craiguk62 Discharge Explanation <https://www.youtube.com/watch?v=L6z1lT_QTXM>`_: Very useful video by FSUK Judge.
-.. * `Michael Ruppe TSAL Website <https://michaelruppe.com/2020/10/11/design-walkthrough-tractive-system-active-light-tsal-driver-fsae/>`_: Has a useful description of how the TSAL works
-.. * `Michael Ruppe Example Schematic <https://github.com/michaelruppe/FSAE/blob/master/TSALv3/Schematic.pdf>`_: An example circuit diagram of the TSAL (not fully rules compliant)
