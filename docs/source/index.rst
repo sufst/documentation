@@ -27,7 +27,9 @@ Team**.
 
 .. toctree::
    :hidden:
-   :caption: High Voltage
+   :caption: Tractive System
+
+   vcu/index.rst
 
 .. toctree::
    :hidden:
