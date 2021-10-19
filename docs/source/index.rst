@@ -20,6 +20,7 @@ Team**.
    documentation/index
    git/index
    software-infrastructure/index
+   
 
 .. toctree::
    :hidden:
@@ -29,8 +30,9 @@ Team**.
    :hidden:
    :caption: Tractive System
 
-   vcu/index.rst
-
+   vcu/index
+   tspcb/index
+   
 .. toctree::
    :hidden:
    :caption: Quick Links
