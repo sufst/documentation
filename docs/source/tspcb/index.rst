@@ -1,5 +1,5 @@
-Tractive System PCBs
-====================
+PCBs
+====
 
 .. toctree::
    :hidden:
@@ -7,3 +7,4 @@ Tractive System PCBs
    tsal
    precharge
    discharge
+   hv-sense
