@@ -1,7 +1,7 @@
-Software Infrastructure
-=======================
+Telemetry
+=========
 
-This section contains Documentation for all **Software projects / infrastructure** currently used within SUFST's Electronics Department. 
+This section contains Documentation for all **Telemetry Software Projects** related  within SUFST's Electronics Department. 
 
 .. note:: 
 

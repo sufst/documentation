@@ -18,13 +18,18 @@ Team**.
    :caption: General
    
    documentation/index
-   git/index
-   software-infrastructure/index
    
 
 .. toctree::
    :hidden:
    :caption: Low Voltage
+
+.. toctree::
+   :hidden:
+   :caption: Software
+
+   git/index
+   telemetry/index
 
 .. toctree::
    :hidden:
