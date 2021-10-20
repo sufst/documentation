@@ -1,3 +1,5 @@
+.. _vm_setup:
+
 Installing Servers on a VM
 ==========================
 
