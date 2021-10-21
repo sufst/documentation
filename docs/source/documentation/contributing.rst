@@ -99,6 +99,20 @@ Another good source of information is `our own repository
 <https://github.com/sufst/documentation>`_ for documentation which could be used
 to find a certain element from reStructuredText.
 
+Downloadable PDF Files
+^^^^^^^^^^^^^^^^^^^^^^
+
+You can also add downloadable PDF files in the source code and link them from the documentation using the ``:download`` directive in Sphinx. 
+
+All PDF files should live under the ``resources/pdfs`` folder and linked from that location to each ``.rst`` file they need to be accessed from. 
+
+**Example:**
+
+.. code-block:: language
+   
+   Please check the :download:`FSG 2022 Rules <path_to_file.pdf>`.
+
+
 Folder Structure
 ----------------
 
@@ -125,6 +139,7 @@ content of the site. You will also see a ``img`` folder for some sub-folders.
 In this folder lies images or assets that are applicable for that particular
 folder. If an asset is needed in more than one place, it should be in more than
 one ``img`` folder.
+
 
 Assets / Images
 ^^^^^^^^^^^^^^^
