@@ -8,8 +8,8 @@ opening the AIRs. High inrush current would happen without the Pre-Charge
 circuit as the low initial resistance of the inverter causes and effective
 shortcut, which risks overloading components in the tractive system. The
 Pre-Charge Circuit is designed to limit inrush current by using a relay to
-redirect the current through a resistor and capacitor. The potential difference
-accross the resistor and capacitor is required to reach 95% of the maximum
+redirect the current through a resistor. The potential difference
+accross the resistor is required to reach 95% of the maximum
 Tractive System voltage before the Pre-Charge relay, and second AIR, may be
 close. Relevant rules are EV 5.7 of the `FSG Rules
 <https://www.formulastudent.de/fileadmin/user_upload/all/2020/rules/FS-Rules_2020_V1.0.pdf>`_.
