@@ -5,7 +5,7 @@ Description
 ###########
 The purpose of the Pre-Charge Circuit is to prevent a high inrush current when
 opening the AIRs. High inrush current would happen without the Pre-Charge
-circuit as the low initial resistance of the inverter causes and effective
+circuit as the low initial resistance of the inverter causes an effective
 shortcut, which risks overloading components in the tractive system. The
 Pre-Charge Circuit is designed to limit inrush current by using a relay to
 redirect the current through a resistor. The potential difference
