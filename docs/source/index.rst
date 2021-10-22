@@ -37,6 +37,7 @@ Team**.
 
    vcu/index
    tspcb/index
+   connectors.rst
    
 .. toctree::
    :hidden:
