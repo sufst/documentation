@@ -11,6 +11,10 @@ Accessories
 * We have purchased two `thermistor expansion modules <https://www.orionbms.com/products/thermistor-expansion-module/>`_ from Orion in order to monitor the temperature of enough cells in accordance with the regulations.
 * A `CANdapter <https://www.ewertenergy.com/products.php?item=candapter>`_ is required to interface with a PC (Not yet purchased)
 
+Cell Monitoring
+###############
+
+
 Technical Documents
 ###################
 * `Orion BMS 2 Spec Sheet <http://www.orionbms.com/downloads/documents/orionbms2_specifications.pdf>`_
