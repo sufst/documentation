@@ -1,5 +1,5 @@
-Telemetry
-=========
+GUI
+===
 
 This section contains Documentation for all **Telemetry Software Projects** related  within SUFST's Electronics Department. 
 
