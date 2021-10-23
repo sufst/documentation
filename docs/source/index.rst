@@ -52,6 +52,8 @@ Team**.
    :hidden:
    :caption: Safety & Checklists
 
+   tractive-system-safety-checklists/ppe/index
+   tractive-system-safety-checklists/risk-assessments/index
    tractive-system-safety-checklists/installing-accumulator/index
    tractive-system-safety-checklists/removing-accumulator/index
    tractive-system-safety-checklists/power-up/index
