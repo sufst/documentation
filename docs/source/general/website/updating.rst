@@ -1,2 +1,2 @@
-Updaing
-=======
+Updating
+========

@@ -1,5 +1,7 @@
-Website
-=======
+SUFST Website
+=============
+
+View website at `here <https://sufst.co.uk/>`_
 
 .. toctree::
    :hidden:
