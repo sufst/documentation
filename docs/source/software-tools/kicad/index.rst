@@ -1,0 +1,7 @@
+KiCad
+=====
+
+.. toctree::
+   :hidden:
+
+   guide
