@@ -12,3 +12,4 @@ Resources
 * `PID Without a PhD [pdf] <https://www.wescottdesign.com/articles/pid/pidWithoutAPhd.pdf>`_: Detailed (and long) introduction to Applied Control Theory.
 * `Tim Arnet Into to Fuzzy Logic <https://www.youtube.com/watch?v=rln_kZbYaWc>`_: A good YouTube video introducing fuzzy logic applied to an automotive example
 * `MATLAB Intro to Fuzzy Controller <https://www.youtube.com/watch?v=__0nZuG4sTw>`_: YouTube video explaining how fuzzy logic can be used to construct a controller for decision making purposes
+* `KTH Traction Control System Design Paper <http://kth.diva-portal.org/smash/get/diva2:1441028/FULLTEXT02.pdf>`_: A paper from KTH Formula Student Team on how they designed and implemeted their traction control system.
