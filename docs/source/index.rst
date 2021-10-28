@@ -90,6 +90,12 @@ Team**.
    utilities/aero-delta/index
    utilities/rules-parser/index
    utilities/ltspice-plot/index
+
+.. toctree::
+   :hidden:
+   :caption: Driverless
+
+   driverless/resources/index
    
 .. toctree::
    :hidden:
