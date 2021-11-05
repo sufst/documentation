@@ -1,4 +1,4 @@
-HV connectors
+HV Connectors
 =============
 
 On this page are a list of all the high voltage connectors that are used on the car.
