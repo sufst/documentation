@@ -1,5 +1,5 @@
-Version Control
-===============
+Git / Version Control
+=====================
 
 This section is designed as a destination for all things Git / version control. 
 
@@ -16,4 +16,3 @@ Resources in this section:
    getting-started
    git-tutorial
    guidelines
-   abbreviations

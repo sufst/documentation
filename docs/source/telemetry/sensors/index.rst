@@ -1,2 +1,7 @@
 Sensors
 =======
+
+.. toctree::
+   :hidden:
+
+   logging

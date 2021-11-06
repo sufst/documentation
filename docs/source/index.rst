@@ -10,60 +10,36 @@ Team**.
    
    general/getting-started/index
    general/documentation/index
+   general/software-tools/index
    general/website/index
    general/graphics/index
    general/sharepoint/index
-   general/discord/index
-   
-
-.. toctree::
-   :hidden:
-   :caption: Software Tools
-   
-   software-tools/git/index
-   software-tools/kicad/index
-   software-tools/draw-io/index
-   software-tools/rapid-harness/index
-   software-tools/solidworks/index
+   general/discord/index   
 
 .. toctree::
    :hidden:
    :caption: Tractive System Hardware
 
-   tractive-system-hardware/motor/index
-   tractive-system-hardware/inverter/index
-   tractive-system-hardware/charger/index
+   tractive-system-hardware/powertrain/index
+   tractive-system-hardware/accumulator/index
    tractive-system-hardware/vcu/index
    tractive-system-hardware/cables-connectors/index
    tractive-system-hardware/pcbs/index
    tractive-system-hardware/master-switch-measurement-points/index
-
-.. toctree::
-   :hidden:
-   :caption: Accumulator
-
-   accumulator/airs/index
-   accumulator/ams/index
-   accumulator/imd/index
-   accumulator/cells/index
-   accumulator/production/index
    
 .. toctree::
    :hidden:
-   :caption: Safety & Checklists
+   :caption: Safety, Checklists & Guides
 
-   tractive-system-safety-checklists/ppe/index
-   tractive-system-safety-checklists/risk-assessments/index
-   tractive-system-safety-checklists/installing-accumulator/index
-   tractive-system-safety-checklists/removing-accumulator/index
-   tractive-system-safety-checklists/power-up/index
+   tractive-system-safety-checklists-guides/safety/index
+   tractive-system-safety-checklists-guides/checklists/index
+   tractive-system-safety-checklists-guides/guides/index
    
 .. toctree::
    :hidden:
    :caption: Telemetry
    
    telemetry/gui/index
-   telemetry/data-logging/index
    telemetry/sensors/index
    telemetry/xbee/index
    
@@ -87,9 +63,7 @@ Team**.
    :hidden:
    :caption: Utilities
    
-   utilities/aero-delta/index
-   utilities/rules-parser/index
-   utilities/ltspice-plot/index
+   utilities/scripts/index
 
 .. toctree::
    :hidden:
