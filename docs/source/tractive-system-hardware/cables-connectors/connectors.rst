@@ -41,3 +41,7 @@ Required Parts for 90 degree
     Required components found on page 7 of: `HVP800 2PHI AND 3PHI 90DEG Product Specification <https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Specification+Or+Standard%7F108-94268%7FH%7Fpdf%7FEnglish%7FENG_SS_108-94268_H.pdf%7F1-2141154-1>`_
 
 `Datasheet <https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Catalog+Section%7F1654294-4%7F1704%7Fpdf%7FEnglish%7FENG_CS_1654294-4_1704.pdf%7F1-2141154-1>`__
+
+Resources
+#########
+* :download:`Comprehensive Guide to Good Crimping (Cablecraft) <_pdf/cablecraft_crimp_guide.pdf>`

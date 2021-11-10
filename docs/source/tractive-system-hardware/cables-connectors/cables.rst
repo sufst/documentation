@@ -21,3 +21,7 @@ Coroflex FHLR2GCB2G
 +-----------------------+--------------------+
 | Dynamic installation  | 6 x Outer Diameter |
 +-----------------------+--------------------+
+
+Resources
+#########
+* :download:`Comprehensive Guide to Good Crimping (Cablecraft) <_pdf/cablecraft_crimp_guide.pdf>`

@@ -6,6 +6,10 @@ Cables & Connectors
 
 :doc:`Cables <cables>`
 
+Resources
+#########
+* :download:`Comprehensive Guide to Good Crimping (Cablecraft) <_pdf/cablecraft_crimp_guide.pdf>`
+
 .. toctree::
    :hidden:
 
