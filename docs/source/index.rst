@@ -42,6 +42,7 @@ Team**.
    telemetry/gui/index
    telemetry/sensors/index
    telemetry/xbee/index
+   telemetry/data_logger/index
    
 .. toctree::
    :hidden:
