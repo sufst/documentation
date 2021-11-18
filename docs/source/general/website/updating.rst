@@ -29,4 +29,7 @@ This should pull the latest version from the ``main`` branch. You'll either need
 
 .. note:: Verifying it worked. ``/var/www/sufst.co.uk/html`` should now contain simlinks to the build folder within the sufst home directory. 
 
+.. uml:: diagram.uml
+
+   
 
