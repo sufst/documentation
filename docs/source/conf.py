@@ -34,7 +34,7 @@ extensions = [
     'sphinxcontrib.plantuml',
 ]
 
-plantuml = 'java -jar /Users/andrewdemenagas/Desktop/plantuml.jar'
+plantuml = 'java -jar plantuml.jar'
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
