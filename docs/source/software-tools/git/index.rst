@@ -16,3 +16,4 @@ Resources in this section:
    getting-started
    git-tutorial
    guidelines
+   abbreviations
