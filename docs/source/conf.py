@@ -10,7 +10,7 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
+import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
@@ -34,7 +34,7 @@ extensions = [
     'sphinxcontrib.plantuml',
 ]
 
-plantuml = 'java -jar /Users/andrewdemenagas/Desktop/plantuml.jar'
+plantuml = 'java -jar %s' % os.path.join(os.path.dirname(__file__), "plantuml.jar")
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
